@@ -36,10 +36,10 @@ class CountReactClassBased extends Component {
         <h4>{this.state.count}</h4>
         <button onClick={this.handleCount}>Click to Update</button>
 
-        <button onClick={()=> {}}>Set Error</button>
-        <ErrorBoundary fallback={<h3>Error has occured</h3>}>
+        {/* <button onClick={()=> {}}>Set Error</button> */}
+        {/* <ErrorBoundary fallback={<h3>Error has occured</h3>}>
           <div>List of items</div>
-        </ErrorBoundary>
+        </ErrorBoundary> */}
       </div>
     );
   }

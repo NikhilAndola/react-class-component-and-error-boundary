@@ -1,3 +1,5 @@
+import React from 'react';
+
 class ErrorBoundary extends React.Component {
     constructor(props) {
         super(props);
@@ -26,4 +28,4 @@ class ErrorBoundary extends React.Component {
     }
   }
 
-  export default CountReactClassBased;
+  export default ErrorBoundary;
